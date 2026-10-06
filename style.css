@@ -1,0 +1,52 @@
+body {    
+
+  color: rgb(0, 0, 0);	
+background-color: rgba(112, 179, 255, 0.753);
+}
+form { 
+background-color: rgba(103, 136, 255, 0.767);
+padding: 20px;
+border-radius: 10px;
+box-shadow: 0px 0px 10px rgb(0, 0, 0);
+max-width: 385px;
+margin: 0 auto;
+}
+.titulo-site {
+text-align: center;
+}
+.linha {
+display: flex;
+align-items: center;
+gap: 20px;
+}
+.destaque-item {
+  font-size: 25px;
+}
+.card-escola {
+  background: #FFFFFF;
+  border: 1px solid #C9C3B6;
+  border-radius: 0px 0px 5 5;
+  padding: 24px;
+  box-shadow: 0 4px 14px rgba(0,0,0,0.10);
+}
+
+.card-escola1 h2 {
+  margin-top: 0;
+  font-size: 25px;
+}
+.card-escola1 {
+  background: #1768ffc7;
+  margin: -24px -24px 20px -24px;
+  padding: 14px 22px;
+  border-radius: 0px 0px 0 0;
+}
+
+.destaque-item1 {
+	align-item: center;
+  font-size: 50px;
+}
+.card-missao h2 {
+  margin-top: 0;
+  font-size: 25px;
+}
+  
