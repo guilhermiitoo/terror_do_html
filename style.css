@@ -1,0 +1,117 @@
+body {    
+
+  color: rgb(0, 0, 0);	
+background-color: rgba(137, 187, 244, 0.753);
+}
+form { 
+background-color: rgba(143, 168, 255, 0.767);
+padding: 20px;
+border-radius: 10px;
+box-shadow: 0px 0px 10px rgb(0, 0, 0);
+max-width: 385px;
+margin: 0 auto;
+}
+.titulo-site {
+  color:#FFFFFF;
+  text-align: center;
+  padding: 2px 6px;
+  border-radius: 4px;
+}
+.linha {
+display: flex;
+align-items: center;
+gap: 20px;
+}
+.destaque-item {
+  font-size: 25px;
+}
+.linha {
+  display: flex;
+  flex-direction: column;   /* ← adicione esta linha */
+  align-items: center;
+  gap: 20px;
+}
+.card-escola { 
+   max-width: 600px;
+   margin: 20px auto;
+   background: #fff;
+   border-radius: 20px;
+   padding: 20px;
+   box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+  background: #FFFFFF;
+  border: 1px solid #C9C3B6;
+  border-radius: 0px 0px 5 5;
+  padding: 24px;
+  box-shadow: 0 4px 14px rgba(0,0,0,0.10);
+}
+.card-img {
+  max-width: 100%;       
+  height: auto;
+}
+
+.card-escola1 h2 {
+  margin-top: 0;
+  font-size: 25px;
+}
+.card-escola1 {
+  background: #003699c7;
+  margin: -24px -24px 20px -24px;
+  padding: 14px 22px;
+  border-radius: 0px 0px 0 0;
+}
+
+.destaque-item1 {
+	align-item: center;
+  font-size: 50px;
+}
+.card-missao h2 {
+  margin-top: 0;
+  font-size: 25px;
+}
+
+
+.botao {
+  display: inline-block;
+  background: #1768ff;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 8px;
+  text-decoration: none;   /* tira o sublinhado do link */
+  font-weight: bold;
+}
+
+.botao:hover {
+  background: #0f4fcc;     /* escurece quando passa o mouse */
+}
+.titulo-matricula {
+  color:#00089dc7;
+  font-size: 20px;
+}
+
+.Nossa.Hitoria {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.card-img {
+  width: 450px;
+  height: auto;
+}
+.card-img {
+  width: 500px;
+  height: 350px;    /* estica/achata */
+}
+.card-img-2 {
+  display: block;
+  width: 450px;
+  height: auto;
+  margin: 0 auto;
+  max-width: 100%;
+}
+.card-img-2 {
+  display: block;   /* ← o segredo */
+  width: 500px;
+  height: 350px;    /* estica/achata */
+  margin: 0 auto;   /* não ultrapassa o card */
+  max-width: 100%;
+}
